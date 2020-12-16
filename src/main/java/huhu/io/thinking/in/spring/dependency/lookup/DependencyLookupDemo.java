@@ -10,7 +10,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import java.util.Map;
 
 /**
- * test 1
+ * demo 1
  * <p>dependency lookup demo class
  *
  * @author huhu
