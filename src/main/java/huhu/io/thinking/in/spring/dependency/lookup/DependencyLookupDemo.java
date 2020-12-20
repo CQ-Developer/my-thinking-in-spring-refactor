@@ -25,8 +25,7 @@ public class DependencyLookupDemo {
     private static final String XML_FILE_PATH = "classpath:META-INF/dependency-lookup-demo.xml";
 
     public static void main(String[] args) {
-        BeanFactory beanFactory
-                = new ClassPathXmlApplicationContext(XML_FILE_PATH);
+        BeanFactory beanFactory = new ClassPathXmlApplicationContext(XML_FILE_PATH);
 
         // realtime lookup
         lookupRealtime(beanFactory);
