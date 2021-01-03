@@ -1,0 +1,9 @@
+package huhu.io.thinking.in.spring.aop.overview.interceptor;
+
+import java.lang.reflect.Method;
+
+public interface BeforeInterceptor {
+
+    long before(Object proxy, Method method, Object[] args);
+
+}

@@ -1,7 +1,7 @@
 package huhu.io.thinking.in.spring;
 
 /**
- * master branch
+ * aop-overview branch
  *
  * for more information, please check other branches.
  */
