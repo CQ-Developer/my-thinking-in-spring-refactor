@@ -15,7 +15,7 @@ public class JdkDynamicProxyDemo {
 
     public static void main(String[] args) {
         ClassLoader loader = Thread.currentThread().getContextClassLoader();
-        Class<EchoService>[] interfaces = new Class[]{EchoService.class};
+        Class<?>[] interfaces = new Class[]{EchoService.class};
         InvocationHandler h = (proxy, method, args1) -> {
             if (EchoService.class.isAssignableFrom(method.getDeclaringClass())) {
                 ProxyEchoService proxyEchoService = new ProxyEchoService(new DefaultEchoService());
